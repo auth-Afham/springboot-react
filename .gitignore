@@ -1,0 +1,60 @@
+# Ignore Gradle and Maven build files
+.gradle/
+build/
+target/
+
+# Ignore dependency directories
+/node_modules/
+/.yarn/
+
+# Ignore IntelliJ IDEA and Eclipse project files
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+
+# Ignore logs and temp files
+*.log
+logs/
+*.tmp
+*.swp
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore package manager lock files (optional)
+package-lock.json
+yarn.lock
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore Spring Boot generated files
+*.war
+*.jar
+
+# Ignore generated documentation
+/target/site/
+
+# Ignore application properties
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+
+# Ignore React build files
+/build/
+dist/
+
+# Ignore archive files
+*.zip
+*.tar.gz
